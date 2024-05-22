@@ -1,0 +1,1 @@
+import{b_ as t,bU as s}from"./index.e195cd26.js";const o=t("SafesStore",{actions:{getAll(e){return s.get("money-safes",{params:e})},getOne(e){return s.get(`money-safes/${e}`)},store(e){return s.post("money-safes",e)},update(e){return s.put(`money-safes/${e.id}`,e)},delete(e){return s.delete(`money-safes/${e.id}`)}}});export{o as u};
