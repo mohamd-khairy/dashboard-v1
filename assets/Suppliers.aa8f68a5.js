@@ -1,0 +1,1 @@
+import{b_ as s,bU as r}from"./index.e64427d3.js";const p=s("SuppliersStore",{actions:{getAll(e){return r.get("suppliers",{params:e})},getOne(e){return r.get(`suppliers/${e}`)},store(e){return r.post("suppliers",e)},update(e){return r.put(`suppliers/${e.id}`,e)},delete(e){return r.delete(`suppliers/${e.id}`)}}});export{p as u};

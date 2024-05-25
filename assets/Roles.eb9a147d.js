@@ -1,0 +1,1 @@
+import{b_ as r,bU as o}from"./index.8696608c.js";const s=r("RolesStore",{actions:{fetchRoles(e){return o.get("roles",{params:e})},fetchRole(e){return o.get(`/roles/${e}`)},storeRole(e){return o.post("roles",e)},editRole(e){return o.put(`roles/${e.id}`,e)},deleteRole(e){return o.delete(`roles/${e.id}`)}}});export{s as u};

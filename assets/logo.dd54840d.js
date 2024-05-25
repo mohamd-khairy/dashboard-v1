@@ -1,1 +1,1 @@
-const s="/dashboard-v1/assets/logo.214de502.png";export{s as _};
+const o=""+new URL("logo.214de502.png",import.meta.url).href;export{o as _};
